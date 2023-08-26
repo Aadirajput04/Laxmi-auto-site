@@ -1,7 +1,7 @@
 <section class="about-section ">
     <div class="yellow-section">
         <div class="yellow-content side-padding page-width">
-            <h1>About Us <img src="./img/white-line.png" alt=""></h1>
+            <h1>About Us <img src="./img/white-line.png" alt=""></h1>   
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's standard dummy text ever since the 1500s, when an unknown. </p>
         </div>

@@ -221,10 +221,10 @@ ul li:hover {
     color: #010101;
     ;
     cursor: pointer;
-   padding-top: 30px;
-   padding-bottom: 10px;
-   padding-left: 40px;
-   padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
     width: 100%;
     border: none;
     text-align: left;
@@ -251,7 +251,7 @@ ul li:hover {
     /* Unicode character for "plus" sign (+) */
     font-size: 13px;
     color: #010101;
-    
+
     float: right;
     margin-left: 5px;
 }
@@ -272,7 +272,7 @@ ul li:hover {
     top: 50px;
 }
 
-.star{
+.star {
     position: absolute;
     left: 50%;
     bottom: 5px;
@@ -285,7 +285,7 @@ ul li:hover {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-border-bottom: 1px solid#E4E4E4;
+    border-bottom: 1px solid#E4E4E4;
     border-radius: 10px;
     background-color: #FFF !important;
 }
@@ -297,14 +297,240 @@ border-bottom: 1px solid#E4E4E4;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-  padding: 10px 40px;
+    padding: 10px 40px;
     /* 166.667% */
     border-bottom: 1px solid#E4E4E4;
-    
+
+}
+
+
+/* ===========================================================================about section css ends here========================================= */
+
+
+/* ===================================================================product-section start here=========================================== */
+
+.product-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 160px;
+}
+
+.product-main a {
+    background-color: #DD7F00;
+    padding: 14px 35px;
+    color: #161616;
+    font-family: 'Judson', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 10px;
+}
+
+.product-main h2 {
+    color: #FFF;
+    font-family: 'Judson', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    /* 116.667% */
+}
+
+.product-boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.product-boxes h3 {
+    padding: 10px 30px;
+    border: 2px solid#FFF;
+    border-radius: 10px;
+    max-height: 50px;
+    color: #FFF;
+    font-family: 'Judson', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.product-boxes img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.product-box-1 {
+    background: url(./img/p11111111.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 600px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.product-box-2 {
+    background: url(./img/p22222222222.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 600px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.product-box-3 {
+    background: url(./img/p333333333.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 600px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+/* ====================================================================product section ends here======================================= */
+
+/* ==================================================================testimonial section starts here========================================= */
+.testimonial-main {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    padding-right: 240px;
+    margin-bottom: 150px;
+}
+
+.testimonial-main p {
+    color: #FFF;
+    font-family: 'Judson', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 120% */
+    padding-top: 5px;
+}
+
+.right-section-testi p {
+    color: #FFF;
+    font-family: 'Judson', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+}
+
+
+.right-section-testi img {
+    margin-top: 145px;
+}
+
+
+.right-section-testi .user-numbers {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+.user-numbers p {
+    color: #CBCBCB;
+    font-family: 'Judson', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 
 
+.testimonial-main h2 {
+    color: #FFF;
+    font-family: 'Judson', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #DD7F00 !important;
+    scale: 2 !important;
+
+}
+
+.swiper-pagination-bullet {
+    scale: 1.3;
+
+}
+
+.swiper-pagination-vertical.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-vertical>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: var(--swiper-pagination-bullet-vertical-gap, 16px) 0 !important;
+    display: block;
+}
+
+
+
+.comma {
+    margin-bottom: 30px;
+}
+
+.star-rating {
+    margin-top: 40px;
+}
+
+.swiper {
+    width: 1080px;
+    height: 600px;
+    background: #474747;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.swiper-slide {
+
+    font-size: 18px;
+
+    display: flex !important;
+    padding: 50px 50px 50px 240px;
+
+    flex-direction: row;
+    gap: 48px;
+}
+
+
+
+.swiper-slide img {
+    display: block;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+    height: auto;
+}
+
+/* =================================================================================.testimonial css ends here======================================= */
 
 
 
@@ -312,7 +538,75 @@ border-bottom: 1px solid#E4E4E4;
 
 
 
+/* ================================================================================faq section starts here================================= */
+.faq-section-main {
+    background-color: #474747;
+    border-radius: 10px 0 0 10px;
+    padding: 50px;
+    margin-left: 240px;
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+    padding-right: 190px;
+}
+
+.faq-section-main img {
+    max-width: 560px;
+    max-height: 500px;
+    border-radius: 10px;
+}
+
+.faq li {
+    padding: 10px;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px !important;
+}
 
 
+.faq li {
+    background: transparent;
+    font-weight: bold;
+    font-size: 120%;
+    border-bottom: 1px #4F4F4F solid;
+    cursor: pointer;
+}
 
-/* ===========================================================================about section css ends here========================================= */
+.faq li.a {
+    background: transparent;
+    display: none;
+    color: #fff;
+}
+
+.faq-section-main h2 {
+    color: #FFF;
+    font-family: 'Judson', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.faq-section-main .q {
+    color: #FFF;
+    font-family: 'Judson', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.faq-section-main .a {
+    color: #A5A5A5;
+    font-family: 'Judson', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+}
