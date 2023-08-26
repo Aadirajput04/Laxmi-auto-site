@@ -17,6 +17,15 @@
 body {
     background-color: #161616;
 }
+.hide-scroll {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+
+.hide-scroll::-webkit-scrollbar {
+    display: none;
+}
 
 
 .side-padding {
@@ -71,6 +80,29 @@ p {
 
 
 /* ====================================================================header css starts here=================================================== */
+
+
+
+
+
+
+
+
+.active-nav {
+    color: #DD7F00 !important;
+
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -548,6 +580,7 @@ ul li:hover {
     flex-direction: row;
     gap: 75px;
     padding-right: 190px;
+    margin-bottom: 150px;
 }
 
 .faq-section-main img {
@@ -610,3 +643,96 @@ ul li:hover {
     line-height: 30px;
     /* 150% */
 }
+
+/* =======================================================================faq section ends here================================= */
+
+
+
+/* =================================================================client section starts here=================================== */
+
+
+.client-main-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+
+
+.client-main-section h2 {
+    color: #FFF;
+    font-family: 'Judson', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    padding-bottom: 5px;
+    /* 116.667% */
+}
+
+
+.clients-parent-box{
+    overflow: auto;
+    margin-top: 50px;
+    width: 100%;
+    border-bottom: 1px solid #474747;
+    border-top: 1px solid #474747;
+}
+
+
+
+.client-main-section .clients-line {
+   
+   white-space: nowrap;
+   
+    /* width: 98vw; */
+    
+    gap: 60px;
+    padding: 50px 50px 50px 240px;
+    
+    
+
+}
+
+.client-main-section .clients-line img{
+    margin-right: 50px;
+}
+
+/* ---------------------------------====================================client section ends here======================= */
+
+
+
+.head-main{
+    background: url(./img/head-lableimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 127px 0;
+    margin-bottom: 150px;
+
+}
+
+.head-main h1{
+    color: #DD7F00 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,4 +1,4 @@
-<section class="faq-section-main">
+<section class="faq-section-main page-width">
 
 
 

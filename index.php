@@ -46,6 +46,13 @@ include 'f&q-section.php';
 
 
 
+<?php
+include 'client-section.php';
+?>
+
+
+
+
 
 
 </body>
