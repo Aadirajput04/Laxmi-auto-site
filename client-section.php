@@ -1,4 +1,4 @@
-<section class="client-main-section">
+<section class="client-main-section page-width">
     <h2>Our Clients</h2>
     <svg xmlns="http://www.w3.org/2000/svg" width="85" height="18" viewBox="0 0 85 18" fill="none">
         <line y1="8.5" x2="85" y2="8.5" stroke="white" />

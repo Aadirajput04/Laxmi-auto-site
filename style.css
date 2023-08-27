@@ -17,6 +17,7 @@
 body {
     background-color: #161616;
 }
+
 .hide-scroll {
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -93,18 +94,6 @@ p {
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 header a {
@@ -651,11 +640,12 @@ ul li:hover {
 /* =================================================================client section starts here=================================== */
 
 
-.client-main-section{
+.client-main-section {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+    padding-bottom: 150px;
+
 }
 
 
@@ -672,7 +662,7 @@ ul li:hover {
 }
 
 
-.clients-parent-box{
+.clients-parent-box {
     overflow: auto;
     margin-top: 50px;
     width: 100%;
@@ -683,19 +673,19 @@ ul li:hover {
 
 
 .client-main-section .clients-line {
-   
-   white-space: nowrap;
-   
+
+    white-space: nowrap;
+
     /* width: 98vw; */
-    
+
     gap: 60px;
     padding: 50px 50px 50px 240px;
-    
-    
+
+
 
 }
 
-.client-main-section .clients-line img{
+.client-main-section .clients-line img {
     margin-right: 50px;
 }
 
@@ -703,7 +693,7 @@ ul li:hover {
 
 
 
-.head-main{
+.head-main {
     background: url(./img/head-lableimg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -716,8 +706,67 @@ ul li:hover {
 
 }
 
-.head-main h1{
+.head-main h1 {
     color: #DD7F00 !important;
+}
+
+
+
+
+
+/* =========================================================================footer section starts here=========================== */
+
+
+footer{
+    position: relative;
+}
+
+.footer-main {
+    background-color: #242424;
+    margin-top: 233px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+
+.logo-content {
+    max-width: 760px;
+}
+
+.address-content {
+    max-width: 276px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.address-content img {
+    padding-right: 15px;
+
+}
+
+
+.footer-main h3 {
+    color: #FFF;
+    font-family: 'Judson', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 5px;
+}
+
+
+.footer-main a {
+    color: #FFF;
+    font-family: 'Judson', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 
@@ -728,6 +777,52 @@ ul li:hover {
 
 
 
+.footer-main p {
+    display: flex;
+
+
+    color: #FFF;
+    font-family: 'Judson', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 125% */
+
+    align-items: flex-start;
+}
+
+
+.left-footer-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-details {
+    display: flex;
+    flex-direction: row;
+    gap: 124px;
+
+}
+
+
+.support-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quick-link {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.left-footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
 
 
 
@@ -735,4 +830,89 @@ ul li:hover {
 
 
 
+.right-footer-form{
+    position: absolute;
+    top: -233px;
+    right: 240px;
+}
 
+
+.contact-form {
+
+    max-width: 440px;
+    padding: 35px;
+
+    border-radius: 10px;
+    background-color: #474747;
+
+}
+
+.contact-form h2 {
+    margin-bottom: 25px;
+    color: #FFF;
+    font-family: 'Judson', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background: #4D4D4D;
+    border: none;
+    color: #B5B5B5;
+    font-family: 'Judson', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+}
+
+.contact-form input[type="file"] {
+    margin-bottom: 15px;
+    color: #A5A5A5;
+    font-family: 'Judson', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 200% */
+}
+
+.contact-form button {
+    display: block;
+    
+    padding: 13px  39px;
+    background-color: #DD7F00;
+   
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    max-width: fit-content;
+    color: #161616;
+font-family: 'Judson',sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.contact-form h5 {
+    color: #FFF;
+    font-family: 'Judson';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 150% */
+    margin-bottom: 15px;
+}
