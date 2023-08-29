@@ -5,7 +5,8 @@
         <line y1="8.5" x2="85" y2="8.5" stroke="white" />
         <rect x="34" width="18" height="18" rx="2" fill="white" />
     </svg>
-    <div class="product-boxes">
+    <div class="all-boxes ">
+    <div class="product-boxes hide-scroll">
         <div class="product-box-1">
             <h3>busses</h3>
             <img src="./img/save.png" alt="">
@@ -19,7 +20,9 @@
             <h3>Delevery van</h3>
             <img src="./img/save.png" alt="">
         </div>
+      
     </div>
+</div>
     <a href="#">View all</a>
 
 

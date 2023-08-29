@@ -53,5 +53,10 @@ include 'client-section.php';
 ?>
 
     
+
+<?php
+include 'footer.php';
+?>
+
 </body>
 </html>

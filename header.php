@@ -6,7 +6,7 @@ function isCurrentPage($pageName)
     return $currentPage === $pageName;
 }
 ?>
-  <div id="brand"><a href="/"><img src="./img/navbar-logo.png" alt=""></a></div>
+  <div id="brand"><a href="./index.php"><img src="./img/navbar-logo.png" alt=""></a></div>
   <nav>
     <ul >
       <li><a <?php if (isCurrentPage('index.php')) echo 'class="active-nav"' ; ?> href="./index.php" > Home</a>

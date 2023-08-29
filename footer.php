@@ -71,6 +71,18 @@
 
     </div>
 
+    <div class="copyright-section side-padding page-width">
+
+<a href="#">©2023 Laxmi. All Rights Reserved</a>
+<div class="social-links">
+    <a href="#"><img src="./img/facebook4.png" alt=""></a>
+    <a href="#"><img src="./img/twitter.png" alt=""></a>
+    <a href="#"><img src="./img/instagram.png" alt=""></a>
+</div>
+
+
+    </div>
+
 
 
 
